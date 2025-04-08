@@ -89,7 +89,6 @@ jobs:
           docker push alvarosalazar/cliente-service:latest
 
   deploy:
-    if: false
     needs: build-and-publish
     runs-on: ubuntu-latest
 
